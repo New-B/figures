@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.2.3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2728" dy="3027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4678" dy="3553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -110,7 +110,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PRhP9QxFb5MheunDYR7i-2" value="Worker" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-300" y="-910" width="530" height="710" as="geometry">
+          <mxGeometry x="-220" y="-1110" width="530" height="710" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -166,7 +166,7 @@
           <mxGeometry y="118" width="530" height="242" as="geometry" />
         </mxCell>
         <mxCell id="PRhP9QxFb5MheunDYR7i-18" value="TxnContext" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1210" y="-1800" width="550" height="540" as="geometry">
+          <mxGeometry x="-1180" y="-1050" width="550" height="540" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -178,6 +178,48 @@
         </mxCell>
         <mxCell id="PRhP9QxFb5MheunDYR7i-21" value="TxnContext(){wr_ = new WorkRequest;} //构造函数，初始化wr_为新的WorkRequest对象&#xa;        ~TxnContext() {delete wr_;}//析构函数，删除wr_对象。&#xa;        inline std::string&amp; getBuffer() {return this-&gt;buffer_;} //返回缓冲区buffer_的引用&#xa;        Object* getReadableObject(GAddr); // {return read_set_.at(a&gt;&gt;48).at(a).get();}//获取可读对象&#xa;        Object* createNewWritableObject(GAddr);//创建新的可写对象&#xa;        Object* createReadableObject(GAddr);//创建可读对象&#xa;        Object* createWritableObject(GAddr);//创建可写对象&#xa;        Object* getWritableObject(GAddr);//获取可写对象 &#xa;inline bool containWritable(GAddr a);  //检查写集合中是否包含指定地址的对象&#xa;inline void rmReadableObject(GAddr a);&#xa;&#xa;int generatePrepareMsg(uint16_t wid, char* msg, int len, int&amp; nobj );//生成准备消息&#xa;        int generateValidateMsg(uint16_t wid, char* msg, int len, int&amp; nobj ); //生成验证消息&#xa;        int generateCommitMsg(uint16_t wid, char* msg, int len);//生成提交消息&#xa;        int generateAbortMsg(uint16_t wid, char* msg, int len);//生成中止消息&#xa;&#xa;void getWidForRobj(std::vector&lt;uint16_t&gt;&amp; wid);//获取读对象的工作节点ID&#xa;        void getWidForWobj(std::vector&lt;uint16_t&gt;&amp; wid);//获取写对象的工作节点ID&#xa;&#xa;inline int getNumWobjForWid(uint16_t w);  //获取指定工作节点ID的写对象数量&#xa;inline int getNumRobjForWid(uint16_t w); //获取指定工作节点ID的读对象数量&#xa;&#xa;//获取指定工作节点ID的读集合&#xa;        inline std::unordered_map&lt;GAddr, std::shared_ptr&lt;Object&gt;&gt;&amp; getReadSet(uint16_t wid);&#xa;//获取指定工作节点ID的写集合&#xa;        inline std::unordered_map&lt;GAddr, std::shared_ptr&lt;Object&gt;&gt;&amp; getWriteSet(uint16_t wid);&#xa;void reset();//重置事务上下文" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-18">
           <mxGeometry y="128" width="550" height="402" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-22" value="WorkerHandle" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-980" y="-1760" width="420" height="250" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-23" value="boost::lockfree::queue&lt;WorkRequest*&gt;* wqueue;&#xa;Worker* worker;&#xa;int send_pipe[2];&#xa;int recv_pipe[2];&#xa;static mutex lock;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="PRhP9QxFb5MheunDYR7i-22">
+          <mxGeometry y="26" width="420" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-24" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-22">
+          <mxGeometry y="110" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-25" value="WorkerHandle(Worker* w);&#xa;void RegisterThread();&#xa;void DeRegisterThread();  //取消注册线程&#xa;  int SendRequest(WorkRequest* wr); //发送工作请求&#xa;  inline int GetWorkerId() {return worker-&gt;GetWorkerId();}  //获取工作节点ID&#xa;  ~WorkerHandle();  //析构函数，释放资源" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-22">
+          <mxGeometry y="118" width="420" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-26" value="Object" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1470" y="-1580" width="450" height="370" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-27" value="private:&#xa;GAddr addr_;    //对象的地址&#xa;        version_t version_;//对象的版本&#xa;        uint32_t pos_;//数据在缓冲区中的位置&#xa;        osize_t size_;//对象的数据大小&#xa;        std::string&amp; buf_;//数据缓冲区的引用" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="PRhP9QxFb5MheunDYR7i-26">
+          <mxGeometry y="26" width="450" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-28" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-26">
+          <mxGeometry y="130" width="450" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-29" value="Object(std::string&amp;, GAddr); //构造函数，初始化对象的地址和数据缓冲区&#xa;        osize_t deserialize(const char*, osize_t = -1);//反序列化，将字符数据转换为对象&#xa;        osize_t serialize(char*, osize_t);//序列化，将对象转换为字符数据&#xa;        osize_t writeTo(char*, int = 0, osize_t = -1);//写入数据，将对象数据写入指定缓冲区&#xa;        osize_t readFrom(const char*);//读取数据，从指定缓冲区读取对象数据&#xa;        osize_t readEmPlace(const char*, osize_t, osize_t);//就地读取数据，&#xa;        inline GAddr getAddr() {return addr_;}//获取对象地址&#xa;        inline void setVersion(version_t v) {this-&gt;version_ = v;}//设置对象版本&#xa;        inline version_t getVersion() {return version_;}//获取对象版本&#xa;        inline osize_t getSize() {return size_;}//获取对象大小&#xa;        inline void setSize(osize_t sz) { size_ = sz; }//设置对象大小&#xa;        inline osize_t getTotalSize(); //获取对象的总大小&#xa;        inline bool hasContent() {return (pos_ != -1);}//检查对象是否有内容&#xa;        inline void freeContent() { pos_ = -1; }//释放对象内容&#xa;        const char* toString(); //将对象转换为字符串表示" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-26">
+          <mxGeometry y="138" width="450" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-30" value="WorkRequest" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1660" y="-1065" width="450" height="475" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-31" value="uint32_t id;  //工作请求的唯一标识符ID&#xa;&#xa;union { //nobj和tx联合体，分别表示对象数量和事务上下文指针&#xa;    uint32_t nobj;&#xa;    TxnContext* tx; };&#xa;&#xa;unsigned int pid; //identifier of the parent work request (used for FORWARD request)  //父工作请求的标识符（用于FORWARD请求）&#xa;  int pwid; //identifier of the parent worker //父工作节点的标识符&#xa;  enum Work op; //工作请求的操作类型&#xa;&#xa;  union { //key、addr、free联合体，分别表示键、地址、空闲内存大小&#xa;    uint64_t key;&#xa;    GAddr addr;&#xa;    Size free;  };&#xa;&#xa;  Size size;  //大小&#xa;  int status; //状态码&#xa;Flag flag;  //标志&#xa;  void* ptr;  //指针&#xa;  int fd; //file descriptor  //文件描述符&#xa;int wid;  //worker id  //工作节点的标识符&#xa;  int counter; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="PRhP9QxFb5MheunDYR7i-30">
+          <mxGeometry y="26" width="450" height="324" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-32" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-30">
+          <mxGeometry y="350" width="450" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-33" value="WorkRequest(): fd(), id(-1), pid(), pwid(), op(), addr(), size(), status(),&#xa;  flag(), ptr(), wid(), counter(), parent(), next(){};&#xa;WorkRequest(WorkRequest&amp; wr); //拷贝构造函数，用于创建对象的副本&#xa;  bool operator==(const WorkRequest&amp; wr); //重载==运算符，比较运算符，比较两个WorkRequest对象是否相等&#xa;  int Ser(char* buf, int&amp; len); //序列化函数，将WorkRequest对象序列化为字符串&#xa;  int Deser(const char* buf, int&amp; len); //反序列化函数&#xa;  ~WorkRequest(); " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-30">
+          <mxGeometry y="358" width="450" height="112" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
