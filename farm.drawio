@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="26.2.3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1360" dy="2042" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2728" dy="3027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Server" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="220" y="-1100" width="500" height="490" as="geometry">
+          <mxGeometry x="580" y="-1890" width="500" height="490" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -38,10 +38,10 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="Get Seminars Taken" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
           <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;curved=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--12" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;curved=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="200" y="203" as="sourcePoint" />
-            <mxPoint x="200" y="203" as="targetPoint" />
+            <mxPoint x="200" y="-270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--13" value="Professor" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -55,10 +55,10 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--16" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;curved=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--13" target="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--16" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;curved=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--13" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="210" y="373" as="sourcePoint" />
-            <mxPoint x="310" y="271" as="targetPoint" />
+            <mxPoint x="410" y="-270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--17" value="Address" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -89,7 +89,7 @@
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--26" value="" style="endArrow=open;shadow=0;strokeWidth=1;rounded=0;curved=0;endFill=1;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="zkfFHV4jXpPFQw0GAbJ--17" edge="1">
           <mxGeometry x="0.5" y="41" relative="1" as="geometry">
-            <mxPoint x="470" y="-610" as="sourcePoint" />
+            <mxPoint x="588" y="-260" as="sourcePoint" />
             <mxPoint x="540" y="192" as="targetPoint" />
             <mxPoint x="-40" y="32" as="offset" />
           </mxGeometry>
@@ -108,6 +108,76 @@
           <mxGeometry x="0.5" y="49" relative="1" as="geometry">
             <mxPoint x="-38" y="40" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-2" value="Worker" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-300" y="-910" width="530" height="710" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-3" value="thread* st; //the handle of worker thread&#xa;boost::lockfree::queue&lt;WorkRequest*&gt;* wqueue;&#xa;Client* master;&#xa;unordered_map&lt;int, int&gt; pipes;&#xa;unsigned int wr_psn; //we assume the pending works will not exceed INT_MAX&#xa;  unordered_map&lt;GAddr, queue&lt;pair&lt;Client*, WorkRequest*&gt;&gt;&gt; to_serve_requests;&#xa;unordered_map&lt;GAddr, queue&lt;WorkRequest*&gt;&gt; to_serve_local_requests;&#xa;void* base; //base addr&#xa;Size size; &#xa;Size ghost_size; //the locally allocated size that is not synced with Master&#xa;&#xa;std::unordered_map&lt;uint32_t, TxnContext*&gt; local_txns_; //本地事务上下文&#xa;std::unordered_map&lt;uint32_t, std::unique_ptr&lt;TxnCommitStatus&gt;&gt; tx_status_;&#xa;std::unordered_map&lt;Client*, std::list&lt;TxnContext*&gt;&gt; client_tasks_;  //每个客户端的任务列表&#xa;std::unordered_map&lt;uint64_t, std::unique_ptr&lt;TxnContext&gt;&gt; remote_txns_;//远程事务上下文映射&#xa;std::unordered_map&lt;uint64_t, uint32_t&gt; nobj_processed;  //处理的对象数量映射&#xa;unordered_map&lt;uint64_t, pair&lt;void*, Size&gt;&gt; kvs; //键值存储&#xa;&#xa;SlabAllocator sb;&#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-2">
+          <mxGeometry y="26" width="530" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-2">
+          <mxGeometry y="320" width="530" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-5" value="Worker(const Conf&amp; conf, RdmaResource* res = nullptr); &#xa;  inline void Join() {st-&gt;join();}  //等待服务线程结束&#xa;  inline bool IsMaster() {return false;}  //判断是否为主节点，返回false&#xa;  inline int GetWorkerId() {return master-&gt;GetWorkerId();}  //获取工作节点ID&#xa;int RegisterHandle(int fd, aeFileProc* handle = ProcessLocalRequest); //注册处理句柄&#xa;  void DeRegisterHandle(int fd); //取消注册处理句柄&#xa;&#xa;inline boost::lockfree::queue&lt;WorkRequest*&gt;* GetWorkQ() {return wqueue;}&#xa;&#xa;static void ProcessLocalRequest(aeEventLoop *el, int fd, void *data, int mask); //处理本地请求&#xa;  void ProcessRequest(Client*, WorkRequest*) override {} //处理请求&#xa;&#xa;int PostConnectMaster(int fd, void* data); //连接到主节点后的处理&#xa;  void RegisterMemory(void* addr, Size s);//注册内存&#xa;&#xa;Client* GetClient(GAddr addr = Gnullptr); //获取客户端&#xa;  inline bool IsLocal(GAddr addr) {return WID(addr) == GetWorkerId();} //判断地址是否为本地地址&#xa;  inline void* ToLocal(GAddr addr) {epicAssert(IsLocal(addr)); return TO_LOCAL(addr, base);}  //将全局地址转化为本地地址&#xa;  inline GAddr ToGlobal(void* ptr) {return TO_GLOB(ptr, base, GetWorkerId());} //将本地地址转换为全局地址&#xa;  void SyncMaster(Work op = UPDATE_MEM_STATS, WorkRequest* parent = nullptr);//与主节点同步&#xa;  static int LocalRequestChecker(struct aeEventLoop *eventLoop, long long id, void *clientData); //本地请求检查器&#xa;  int Notify(WorkRequest* wr); //通知请求&#xa;  static void StartService(Worker* w);//启动服务&#xa;  ~Worker();//析构函数，释放资源&#xa;&#xa;FarmXXX......" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-2">
+          <mxGeometry y="328" width="530" height="382" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-6" value="Client" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="-930" width="500" height="510" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-7" value="RdmaContext *ctx;   /* remote client */ //指向RDMA上下文的指针，用于远程客户端&#xa;int lastMsgTime;    //记录最后一条消息的时间&#xa;        RdmaResource* resource; //指向RDMA资源的指针&#xa;        char* connstr = nullptr;    //连接字符串&#xa;int wid;    //工作节点ID&#xa;        Size size;  //总内存大小&#xa;        Size free;  //空闲内存大小" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-6">
+          <mxGeometry y="26" width="500" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-8" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-6">
+          <mxGeometry y="130" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-9" value="Client(RdmaResource* res, bool isForMaster, const char *rdmaConnStr = nullptr);&#xa;&#xa;//used only among workers&#xa;        int ExchConnParam(const char* ip, int port, Server* server);    //交换连接参数&#xa;        const char* GetConnString(int workerid = 0);    //获取连接字符串&#xa;        int SetRemoteConnParam(const char *conn);   //设置远程连接参数&#xa;&#xa;inline bool IsForMaster() {   //判断是否为主节点  return ctx-&gt;IsMaster(); }&#xa;&#xa;inline int GetWorkerId() {return wid;}  //获取工作节点ID&#xa;        inline void SetMemStat(int size, int free) {this-&gt;size = size; this-&gt;free = free;}  //设置内存状态&#xa;        inline Size GetFreeMem() {return this-&gt;free;}   //获取空闲内存大小&#xa;        inline Size GetTotalMem() {return this-&gt;size;}  //获取总内存大小&#xa;        inline void* ToLocal(GAddr addr) {return TO_LOCAL(addr, ctx-&gt;GetBase());}   //将全局地址转换为本地地址&#xa;        inline GAddr ToGlobal(void* ptr)&#xa;&#xa;inline uint32_t GetQP() {return ctx-&gt;GetQP();}&#xa;inline ssize_t Send(const void* buf, size_t len, unsigned int id = 0, bool signaled = false);&#xa;inline int PostRecv(int n) {return ctx-&gt;PostRecv(n);}   //向共享接收队列发布接收请求&#xa;        inline char* GetFreeSlot() {return ctx-&gt;GetFreeSlot();} //获取空闲槽&#xa;        inline char* RecvComp(ibv_wc&amp; wc) {return ctx-&gt;RecvComp(wc);}   //处理接收完成事件&#xa;        inline unsigned int SendComp(ibv_wc&amp; wc) {return ctx-&gt;SendComp(wc);}    //处理发送完成事件&#xa;        inline unsigned int WriteComp(ibv_wc&amp; wc) {return ctx-&gt;WriteComp(wc);}  //处理写完成事件&#xa;        ~Client();  //析构函数，释放资源&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-6">
+          <mxGeometry y="138" width="500" height="372" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-10" value="Master" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1170" y="-1060" width="500" height="360" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-11" value="thread* st;    //服务线程&#xa;string worker_ips; //工作节点列表，格式为“ip:port,ip:port”&#xa;int workers;   //工作节点计数器&#xa;queue&lt;Client*&gt; unsynced_workers;   //未同步的工作节点队列&#xa;    unordered_map&lt;uint64_t, pair&lt;void*, Size&gt;&gt; kvs; //键值对存储&#xa;    unordered_map&lt;uint64_t, queue&lt;pair&lt;Client*, WorkRequest*&gt;&gt;&gt; to_serve_kv_request; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-10">
+          <mxGeometry y="26" width="500" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-12" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-10">
+          <mxGeometry y="130" width="500" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-13" value="Master(const Conf&amp; conf);  //构造函数，初始化主节点服务器&#xa;    inline void Join() {st-&gt;join();}    //等待服务线程结束&#xa;    inline bool IsMaster() {return true;}   //判断是否为主节点，返回true&#xa;    inline int GetWorkerId() {return 0;}    //获取工作节点ID，主节点的ID为0&#xa;    void Broadcast(const char* buf, size_t len);    //广播消息给所有工作节点&#xa;&#xa;  void FarmProcessRemoteRequest(Client* client, const char* msg, uint32_t size); &#xa;  void FarmResumeTxn(Client*){} //恢复事务(未实现)&#xa;&#xa;    void ProcessRequest(Client* client, WorkRequest* wr);   //处理客户端请求&#xa;&#xa;    int PostAcceptWorker(int, void*);   //接受工作节点连接后的处理&#xa;&#xa;    ~Master();  //析构函数，释放资源void UpdateWidMap(); &#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-10">
+          <mxGeometry y="138" width="500" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-14" value="Farm" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-380" y="-1790" width="530" height="370" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-15" value="private:&#xa;        std::unique_ptr&lt;WorkerHandle&gt; wh_; //WorkerHandle的智能指针，用于管理Worker的句柄&#xa;        std::unique_ptr&lt;TxnContext&gt; rtx_; //TxnContext智能指针，管理事务上下文&#xa;        TxnContext* tx_; //TxnContext的普通指针，用于指向当前事务上下文&#xa;        Worker* w_; &#xa;&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-14">
+          <mxGeometry y="26" width="530" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-16" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-14">
+          <mxGeometry y="110" width="530" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-17" value="Farm(Worker*); //构造函数，接受一个Worker指针，用于初始化Farm对象&#xa;&#xa;        int txBegin(); //开始事务&#xa;        GAddr txAlloc(size_t size, GAddr a = 0); //分配事务内存&#xa;        void txFree(GAddr); //释放事务内存&#xa;        osize_t txRead(GAddr, char*, osize_t); //事务读取&#xa;        osize_t txWrite(GAddr, const char*, osize_t);  //事务写入&#xa;int txCommit(); //提交事务&#xa;        int txAbort();  //中止事务&#xa;&#xa;        bool txnIsLocal(); //检查事务是否是本地事务&#xa;&#xa;int put(uint64_t key, const void* value, size_t count) ; //存储键值对&#xa;        int get(uint64_t key, void* value) ; //获取键值对&#xa;        int kv_put(uint64_t key, const void* value, size_t count, int node_id) ; //存储键值对到指定节点&#xa;        int kv_get(uint64_t key, void* value, int node_id) ; //从指定节点获取键值对" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-14">
+          <mxGeometry y="118" width="530" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-18" value="TxnContext" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1210" y="-1800" width="550" height="540" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-19" value="private:&#xa;std::unordered_map&lt;uint16_t, std::unordered_map&lt;GAddr, std::shared_ptr&lt;Object&gt;&gt;&gt; write_set_;&#xa;std::unordered_map&lt;uint16_t, std::unordered_map&lt;GAddr, std::shared_ptr&lt;Object&gt;&gt;&gt; read_set_;&#xa;std::string buffer_;&#xa;public:&#xa;        WorkRequest* wr_; //指向工作请求的指针" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="PRhP9QxFb5MheunDYR7i-18">
+          <mxGeometry y="26" width="550" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-20" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-18">
+          <mxGeometry y="120" width="550" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="PRhP9QxFb5MheunDYR7i-21" value="TxnContext(){wr_ = new WorkRequest;} //构造函数，初始化wr_为新的WorkRequest对象&#xa;        ~TxnContext() {delete wr_;}//析构函数，删除wr_对象。&#xa;        inline std::string&amp; getBuffer() {return this-&gt;buffer_;} //返回缓冲区buffer_的引用&#xa;        Object* getReadableObject(GAddr); // {return read_set_.at(a&gt;&gt;48).at(a).get();}//获取可读对象&#xa;        Object* createNewWritableObject(GAddr);//创建新的可写对象&#xa;        Object* createReadableObject(GAddr);//创建可读对象&#xa;        Object* createWritableObject(GAddr);//创建可写对象&#xa;        Object* getWritableObject(GAddr);//获取可写对象 &#xa;inline bool containWritable(GAddr a);  //检查写集合中是否包含指定地址的对象&#xa;inline void rmReadableObject(GAddr a);&#xa;&#xa;int generatePrepareMsg(uint16_t wid, char* msg, int len, int&amp; nobj );//生成准备消息&#xa;        int generateValidateMsg(uint16_t wid, char* msg, int len, int&amp; nobj ); //生成验证消息&#xa;        int generateCommitMsg(uint16_t wid, char* msg, int len);//生成提交消息&#xa;        int generateAbortMsg(uint16_t wid, char* msg, int len);//生成中止消息&#xa;&#xa;void getWidForRobj(std::vector&lt;uint16_t&gt;&amp; wid);//获取读对象的工作节点ID&#xa;        void getWidForWobj(std::vector&lt;uint16_t&gt;&amp; wid);//获取写对象的工作节点ID&#xa;&#xa;inline int getNumWobjForWid(uint16_t w);  //获取指定工作节点ID的写对象数量&#xa;inline int getNumRobjForWid(uint16_t w); //获取指定工作节点ID的读对象数量&#xa;&#xa;//获取指定工作节点ID的读集合&#xa;        inline std::unordered_map&lt;GAddr, std::shared_ptr&lt;Object&gt;&gt;&amp; getReadSet(uint16_t wid);&#xa;//获取指定工作节点ID的写集合&#xa;        inline std::unordered_map&lt;GAddr, std::shared_ptr&lt;Object&gt;&gt;&amp; getWriteSet(uint16_t wid);&#xa;void reset();//重置事务上下文" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="PRhP9QxFb5MheunDYR7i-18">
+          <mxGeometry y="128" width="550" height="402" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
